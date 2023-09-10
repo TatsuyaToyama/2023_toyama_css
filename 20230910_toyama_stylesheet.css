@@ -47,8 +47,11 @@ ul{
 
 img{
     position: relative;
-    width: 600px;
     z-index: 10;
+
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
     
 }
 
@@ -65,7 +68,8 @@ img{
 
 .contents__colorbox{
     width: 80vw;
-    height: 30vh;
+    height: 200px;
+    background-size: cover;
     background-color: #00277E;
     z-index: 1;
     position: relative;

@@ -1,0 +1,74 @@
+
+
+.
+
+header{
+    width: 100%;
+    max-width: 1500px;
+    position: fixed;
+    top:0;
+    
+}
+
+.coachtech{
+    display: flex;
+    align-items: center;
+    color: #00277E;
+}
+
+.coachtech__title{
+    position: relative;
+    left: 20px;
+}
+
+.coachtech__form{
+    margin-left: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+
+   
+}
+li{
+    margin-right: 30px ;
+    
+}
+
+.contents__image{
+    text-align: right;
+    margin-top: 10vh;
+   
+}
+
+img{
+    position: relative;
+    width: 50%;
+    z-index: 10;
+    
+}
+
+.contents__sentence{
+    font-size: 60px;
+    position: absolute;
+    top: 50vh;
+}
+
+.contents__sentence--detail{
+    margin-bottom: 0;
+}
+
+
+.contents__colorbox{
+    width: 80vw;
+    height: 30vh;
+    background-color: #00277E;
+    z-index: 1;
+    position: relative;
+    top: 0;
+
+    margin-bottom: 100px;
+
+}

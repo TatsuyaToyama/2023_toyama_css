@@ -18,7 +18,8 @@ header{
 
 .coachtech__title{
     position: relative;
-    left: 20px;
+    margin: 20px;
+    font-size: 30px;
 }
 
 .coachtech__form{
@@ -29,13 +30,14 @@ ul{
     list-style: none;
     display: flex;
     font-weight: bold;
-
-   
 }
-li{
+
+.coachtech__elements{
     margin-right: 30px ;
     
 }
+
+
 
 .contents__image{
     text-align: right;
@@ -45,7 +47,7 @@ li{
 
 img{
     position: relative;
-    width: 50%;
+    width: 600px;
     z-index: 10;
     
 }

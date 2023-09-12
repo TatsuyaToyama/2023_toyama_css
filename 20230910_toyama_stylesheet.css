@@ -37,42 +37,35 @@ ul{
     
 }
 
-
-
+.contents {
+    position: relative;
+}
 .contents__image{
     text-align: right;
-    margin-top: 10vh;
-
-
-   
+    margin-top: 20vh;  
 }
-
 img{
     position: relative;
     z-index: 10;
 
-    width: 80vh;
-
-    
-
- 
-    
+    width: 45vw;   
 }
 
 .contents__sentence{
     font-size: 60px;
     position: absolute;
-    top: 50vh;
+    top: 65%;
 }
 
 .contents__sentence--detail{
     margin-bottom: 0;
+    top: 45vh;
 }
 
 
 .contents__colorbox{
     width: 80vw;
-    height: 200px;
+    height: 20vh;
     background-size: cover;
     background-color: #00277E;
     z-index: 1;
